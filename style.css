@@ -24,6 +24,12 @@ margin: 0 auto;
 .navigation__link {
     display: block;
     padding: 16px;
+    text-decoration: none;
+    color: lightcoral;
+}
+
+.navigation__link:hover {
+color: lightblue;
 }
 
 .navigation--open {
@@ -39,10 +45,7 @@ margin: 0 auto;
 
  .hamburger__icon {
      width: 30px;
-
- }
-
-
+} 
 .header {
     margin-top: 50px;
     display: flex;
@@ -64,6 +67,11 @@ text-align: center;
 .about-me {
 height: 300px;
 background-color: #E6F6F7;
+}
+
+.about-me::before {
+    content: "🐭 ";
+    margin-left: 25px;
 }
 
 .flex {
