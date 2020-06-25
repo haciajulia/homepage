@@ -199,3 +199,10 @@ hamburger.addEventListener('click', () => {
     const nav = document.querySelector ('.navigation--js');
     nav.classList.toggle('navigation--open')
 });
+
+const goaway = document.querySelector('.topbar--js');
+
+goaway.addEventListener('mouseleave', () => {
+    const nav = document.querySelector ('.navigation--js');
+    nav.classList.toggle('navigation--open')
+});
